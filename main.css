@@ -43,12 +43,38 @@ header a:hover {
     cursor: pointer;
 }
 
-.brand {
+.brand h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
 
+.brand h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 32px;
+    color: white;
 }
 
 .container {
-    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
     padding: 1.5rem;
     background-color: rgb(241, 228, 203);
     border: solid 1px black;
@@ -65,7 +91,7 @@ header a:hover {
 
 form input, form button {
     width: 100%;
-    min-width: 300px;
+    min-width: 75px;
     /* 
     Our inputs and forms have different default sizes. By changing the box-sizing, we can fix this.
      */
