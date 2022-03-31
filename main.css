@@ -43,6 +43,10 @@ header a:hover {
     cursor: pointer;
 }
 
+.brand {
+
+}
+
 .container {
     margin: auto;
     padding: 1.5rem;
